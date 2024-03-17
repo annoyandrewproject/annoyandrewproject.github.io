@@ -1,0 +1,135 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu';
+}
+
+body {
+    margin: 0;
+    /*display: flex;*/
+}
+
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#logo span {
+    color: #ff5722;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+}
+
+.title-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title-container h1 {
+    font-size: 50px;
+    color: #333;
+}
+
+.title-container strong {
+    font-weight: bold;
+}
+
+.title-container p {
+    font-size: 28px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-1,
+.button-2 {
+    display: inline-block;
+    padding: 0.8em 2em; /* Increased padding for bigger buttons */
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 0 10px;
+    font-size: 16px; /* Increased font size for bigger buttons */
+}
+
+.button-1 {
+    border: 0.1em solid #038eff;
+    color: #038eff;
+}
+
+.button-1:hover {
+    color: #ffffff;
+    background-color: #038eff;
+}
+
+.button-2 {
+    border: 0.1em solid #d70000;
+    color: #d70000;
+}
+
+.button-2:hover {
+    color: #ffffff;
+    background-color: #d70000;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+}
